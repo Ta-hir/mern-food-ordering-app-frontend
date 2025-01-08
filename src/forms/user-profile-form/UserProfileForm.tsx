@@ -15,6 +15,7 @@ import { Input } from "@/components/ui/input";
 import LoadingButton from "@/components/LoadingButton";
 import { User } from "@/types";
 import { useEffect } from "react";
+
 const formSchema = z.object({
   email: z.string().optional(),
   name: z.string().min(1, "Name is required"),
